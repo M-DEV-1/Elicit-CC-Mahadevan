@@ -23,7 +23,7 @@ const ExecCard = () => {
                 // Use placeholder or member image
                 src={member.image || placeHolder}
                 alt={member.name}
-                className="w-full h-full object-cover rounded-lg p-1 bg-amber-100"
+                className="w-full h-full object-cover rounded-lg p-1 bg-red-200"
               />
             </div>
             {isHovered && (
