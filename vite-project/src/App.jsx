@@ -5,7 +5,7 @@ import NavBar from './components/Navbar'
 
 function App() {
   return (
-    <div className="">
+    <div className="min-h-screen bg-gray-900 flex items-center justify-center p-8">
       <NavBar/>
      <ExecCard/>
     </div>
