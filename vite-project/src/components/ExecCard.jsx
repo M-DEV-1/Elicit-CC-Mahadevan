@@ -7,13 +7,13 @@ const ExecCard = () => {
   const [hoveredIndex, setHoveredIndex] = useState(null);
 
   return (
-    <div className="flex flex-wrap justify-center gap-6 mt-16 py-12">
+    <div className="flex flex-wrap justify-center gap-12 mt-16 py-12">
       {teamMembers.map((member, index) => (
         <div 
           key={index} 
-          className="flex flex-col items-center"
-          onMouseEnter={() => setHoveredIndex(index)}
-          onMouseLeave={() => setHoveredIndex(null)}
+          className="flex flex-col items-center relative"
+          // onMouseEnter={() => setHoveredIndex(index)}
+          // onMouseLeave={() => setHoveredIndex(null)}
         >
           {/* Outer Card Container - No hover scale */}
           <div className="w-[300px] h-[400px] rounded-lg bg-gradient-to-b from-gray-800 to-black p-4">
@@ -63,15 +63,10 @@ const ExecCard = () => {
             </div>
           </div>
 
-          {/* Name Banner */}
-          <div className="w-[300px] mt-4 bg-black py-2 px-4 relative rounded-md">
-            {/* Red line decorations */}
-            {/* <div className="absolute left-8 top-1/2 -translate-y-1/2 w-12 h-[1.5px] bg-red-600"></div>
-            <div className="absolute right-8 top-1/2 -translate-y-1/2 w-12 h-[1.5px] bg-red-600"></div> */}
-            {/* Name text */}
-            <h3 className="text-center text-l font-bold text-[#E5DAB9] tracking-[0.2em] relative z-10 font-serif">
-              {member.name}
-            </h3>
+          {/* Name Banner - Old Style */}
+          <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-1/2 bg-white w-56 text-center rounded-md p-2 shadow-lg z-10">
+            <p className="text-lg font-bold text-gray-900">{member.name}</p>
+            <p className="text-sm text-red-600">{member.role}</p>
           </div>
         </div>
       ))}
