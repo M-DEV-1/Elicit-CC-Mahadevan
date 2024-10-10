@@ -64,7 +64,7 @@ const ExecCard = () => {
           </div>
 
           {/* Name Banner */}
-          <div className="w-[300px] mt-4 bg-black py-2 px-4 relative">
+          <div className="w-[300px] mt-4 bg-black py-2 px-4 relative rounded-md">
             {/* Red line decorations */}
             {/* <div className="absolute left-8 top-1/2 -translate-y-1/2 w-12 h-[1.5px] bg-red-600"></div>
             <div className="absolute right-8 top-1/2 -translate-y-1/2 w-12 h-[1.5px] bg-red-600"></div> */}
