@@ -40,7 +40,7 @@ const images = [
       image: 'src/assets/images/WebDev/Mahadevan_KS.webp',
     },
     {
-      name: "Oshika_Sharma",
+      name: "Oshika Sharma",
       committee: "Web Dev",
       image: 'src/assets/images/WebDev/Oshika_Sharma.webp',
     },
