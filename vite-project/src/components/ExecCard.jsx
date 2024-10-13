@@ -25,7 +25,7 @@ const ExecCard = () => {
             {members.map((member, index) => (
               <div key={index} className="flex flex-col items-center relative">
                 {/* Outer Card Container */}
-                <div className="w-[300px] h-[400px] rounded-lg bg-gradient-to-b from-gray-800 to-black p-4">
+                <div className="w-[300px] h-[400px] rounded-lg bg-gradient-to-b from-gray-800 to-black p-4 shadow-xl">
                   {/* Inner Card with Image and Red Border */}
                   <div className="w-full h-full rounded-lg relative">
                     {/* Red border effect */}
