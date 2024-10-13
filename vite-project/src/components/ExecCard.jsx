@@ -26,8 +26,8 @@ const ExecCard = () => {
               
               {/* Image */}
               <img
-                src="../assets/images/Creatives/Anvi_Sarbhai.jpg"
-                // src={member.image}
+                // src="./assets/images/Creatives/Anvi_Sarbhai.jpg"
+                src={member.image}
                 alt={member.name}
                 className="w-full h-full object-cover rounded-lg"
               />
