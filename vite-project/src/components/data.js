@@ -1,150 +1,30 @@
 // src/data.js
+
+import images from '../assets/index'
+
 const teamMembers = [
-    {
+  {
       name: 'Pranav Deshpande',
-      role: 'Deputy Secretary',
-      socialLinks: {
-        instagram: '#',
-        github: '#',
-        linkedin: '#',
-      },
-    },
-    {
+      image: images.pranav,
+      committee: 'Deputy Secretary',
+  },
+  {
       name: 'Pranjana Rahangdale',
-      role: 'Membership Chair',
-      socialLinks: {
-        instagram: '#',
-        github: '#',
-        linkedin: '#',
-      },
-    },
-    {
+      image: images.pranjana,
+      committee: 'Membership Chair',
+  },
+  {
       name: 'Krish Sharma',
-      role: 'Technical Head',
-      socialLinks: {
-        instagram: '#',
-        github: '#',
-        linkedin: '#',
-      },
-    },
-    {
+      image: images.krish,
+      committee: 'Technical Head',
+  },
+  {
       name: 'Maanyata Aul',
-      role: 'Operations Head',
-      socialLinks: {
-        instagram: 'https://www.instagram.com/_lalit___rao_?igsh=MTkwdXp4a3d3NjYyYQ==',
-        github: 'https://github.com/lalit-rao',
-        linkedin: 'https://www.linkedin.com/in/lalit-rao-7b7aba250',
-      },
-    },
-    {
-        name: 'Pranav Deshpande',
-        role: 'Deputy Secretary',
-        socialLinks: {
-          instagram: '#',
-          github: '#',
-          linkedin: '#',
-        },
-      },
-      {
-        name: 'Pranjana Rahangdale',
-        role: 'Membership Chair',
-        socialLinks: {
-          instagram: '#',
-          github: '#',
-          linkedin: '#',
-        },
-      },
-      {
-        name: 'Krish Sharma',
-        role: 'Technical Head',
-        socialLinks: {
-          instagram: '#',
-          github: '#',
-          linkedin: '#',
-        },
-      },
-      {
-        name: 'Maanyata Aul',
-        role: 'Operations Head',
-        socialLinks: {
-          instagram: 'https://www.instagram.com/_lalit___rao_?igsh=MTkwdXp4a3d3NjYyYQ==',
-          github: 'https://github.com/lalit-rao',
-          linkedin: 'https://www.linkedin.com/in/lalit-rao-7b7aba250',
-        },
-      },
-      {
-        name: 'Pranav Deshpande',
-        role: 'Deputy Secretary',
-        socialLinks: {
-          instagram: '#',
-          github: '#',
-          linkedin: '#',
-        },
-      },
-      {
-        name: 'Pranjana Rahangdale',
-        role: 'Membership Chair',
-        socialLinks: {
-          instagram: '#',
-          github: '#',
-          linkedin: '#',
-        },
-      },
-      {
-        name: 'Krish Sharma',
-        role: 'Technical Head',
-        socialLinks: {
-          instagram: '#',
-          github: '#',
-          linkedin: '#',
-        },
-      },
-      {
-        name: 'Maanyata Aul',
-        role: 'Operations Head',
-        socialLinks: {
-          instagram: 'https://www.instagram.com/_lalit___rao_?igsh=MTkwdXp4a3d3NjYyYQ==',
-          github: 'https://github.com/lalit-rao',
-          linkedin: 'https://www.linkedin.com/in/lalit-rao-7b7aba250',
-        },
-      },
-      {
-        name: 'Pranav Deshpande',
-        role: 'Deputy Secretary',
-        socialLinks: {
-          instagram: '#',
-          github: '#',
-          linkedin: '#',
-        },
-      },
-      {
-        name: 'Pranjana Rahangdale',
-        role: 'Membership Chair',
-        socialLinks: {
-          instagram: '#',
-          github: '#',
-          linkedin: '#',
-        },
-      },
-      {
-        name: 'Krish Sharma',
-        role: 'Technical Head',
-        socialLinks: {
-          instagram: '#',
-          github: '#',
-          linkedin: '#',
-        },
-      },
-      {
-        name: 'Maanyata Aul',
-        role: 'Operations Head',
-        socialLinks: {
-          instagram: 'https://www.instagram.com/_lalit___rao_?igsh=MTkwdXp4a3d3NjYyYQ==',
-          github: 'https://github.com/lalit-rao',
-          linkedin: 'https://www.linkedin.com/in/lalit-rao-7b7aba250',
-        },
-      },
-  ];
+      image: images.maanyata,
+      committee: 'Operations Head',
+  },
+  // Add more team members as needed
+];
   
   export default teamMembers;
   
