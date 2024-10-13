@@ -167,7 +167,7 @@ const images = [
       image: 'src/assets/images/Marketing/Palak_Bhaiya.jpg',
     },
     {
-      name: "Pranjana Rahangdale",
+      name: "Pranjana",
       committee: "Marketing",
       image: 'src/assets/images/Marketing/Pranjana_Rahangdale.jpg',
     },
